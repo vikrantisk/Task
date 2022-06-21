@@ -6,8 +6,7 @@ Below are the steps to setup the project over your local system.
 
 - Run below command to install the project dependencies
     - composer install.
-    - npm install
-    - npm run dev
+    - php artisan key:generate
 - Rename .env.example file to .env
 - Setup db credentials in .env file.
     - Add DB credentials.
